@@ -1,1 +1,6 @@
 /* You can add global styles to this file, and also import other style files */
+@use 'tailwindcss';
+
+body {
+  @apply bg-gradient-to-br from-purple-900 via-indigo-900 to-pink-900 text-white;
+}
